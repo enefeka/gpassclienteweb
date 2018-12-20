@@ -72,7 +72,7 @@
       var passwordTitle = $('#passwordTitle').val();
       var passwordPwd = $('#passwordPwd').val();
       var categoryName = $('#categoryName').val();
-       var token = sessionStorage.getItem("token"); 
+      var token = sessionStorage.getItem("token"); 
            $.ajax({
              type: "POST",
              url: "http://localhost:8888/gpass/public/index.php/api/passwords",

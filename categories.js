@@ -73,7 +73,7 @@
 
     $('#cat-submit').click(function() {
        var categoryName = $('#categoryName').val();
-       var token = localStorage.getItem("token"); 
+       var token = sessionStorage.getItem("token"); 
            $.ajax({
              type: "POST",
              url: "http://localhost:8888/gpass/public/index.php/api/categories",

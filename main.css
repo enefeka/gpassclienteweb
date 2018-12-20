@@ -50,6 +50,13 @@ hr {
   opacity: 0.9;
 }
 
+.goCat, .goPwd {
+  background-color: #008000;
+  margin: 5px 10px;
+  color: white;
+  cursor: pointer;
+  opacity: 0.9;
+}
 .deletebtn:hover {
   opacity:1;
 }
